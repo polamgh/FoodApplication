@@ -46,7 +46,7 @@ extension FoodListViewController : UITableViewDelegate {
             cell.btnSelect.setTitle("\(String(describing: (item.amount) ?? 0)) USD", for: .normal)
             cell.btnSelect.tag = row
             cell.btnSelect.addTarget(self, action: #selector(self.btnSelectItem(_:)), for: .touchUpInside)
-            cell.layer.backgroundColor = #colorLiteral(red: 0.9215686275, green: 0.9215686275, blue: 0.9215686275, alpha: 1).cgColor
+            cell.layer.backgroundColor = UIColor.systemBackground.cgColor
         }.disposed(by: disposeBag)
     }
 

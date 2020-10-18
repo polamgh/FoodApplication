@@ -49,12 +49,12 @@ class FoodBaseViewController: UIViewController {
     func initPageMenu(controllerArray : [UIViewController]) {
         let parameters: [CAPSPageMenuOption] = [
             .menuItemWidth(self.view.frame.width / 3 - 20),
-            .viewBackgroundColor(#colorLiteral(red: 0.9215686275, green: 0.9215686275, blue: 0.9215686275, alpha: 1)),
+            .viewBackgroundColor(UIColor.systemBackground),
             .selectedMenuItemLabelColor(UIColor.darkGray),
             .unselectedMenuItemLabelColor(UIColor.lightGray),
-            .scrollMenuBackgroundColor(#colorLiteral(red: 0.9215686275, green: 0.9215686275, blue: 0.9215686275, alpha: 1)),
-            .selectionIndicatorColor(#colorLiteral(red: 0.9215686275, green: 0.9215686275, blue: 0.9215686275, alpha: 1)),
-            .bottomMenuHairlineColor(#colorLiteral(red: 0.9215686275, green: 0.9215686275, blue: 0.9215686275, alpha: 1)),
+            .scrollMenuBackgroundColor(UIColor.systemBackground),
+            .selectionIndicatorColor(UIColor.systemBackground),
+            .bottomMenuHairlineColor(UIColor.systemBackground),
             .menuItemFont(UIFont.boldSystemFont(ofSize: 32)),
         ]
 
