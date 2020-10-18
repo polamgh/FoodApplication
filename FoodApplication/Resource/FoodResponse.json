@@ -1,0 +1,258 @@
+{
+  "foodtype": [
+    {
+      "id": 1,
+      "name": " Pizza"
+    },
+    {
+      "id": 2,
+      "name": "Sushi"
+    },
+    {
+      "id": 3,
+      "name": "Drinks"
+    }
+  ],
+  "food": [
+    {
+      "name": "Cheese",
+      "imageName": "Cheese",
+      "ingredients": "It will always be a simple, unadorned masterpiece on its own.",
+      "size": "200 grams, 35 cm",
+      "amount": 30,
+      "foodtype": 1
+    },
+    {
+      "name": "Veggie",
+      "imageName": "Veggie",
+      "ingredients": "Everything from peppers and mushrooms, to eggplant and onions make for an exciting and tasty veggie pizza.",
+      "size": "200 grams, 35 cm",
+      "amount": 40,
+      "foodtype": 1
+    },
+    {
+      "name": "Pepperoni",
+      "imageName": "Pepperoni",
+      "ingredients": "Who doesn’t love biting into a crispy, salty round of pepperoni",
+      "size": "200 grams, 35 cm",
+      "amount": 80,
+      "foodtype": 1
+    },
+    {
+      "name": "Meat",
+      "imageName": "Meat",
+      "ingredients": "Pile on ground beef and sausage for a hearty meal",
+      "size": "200 grams, 35 cm",
+      "amount": 50,
+      "foodtype": 1
+    },
+    {
+      "name": "Margherita",
+      "imageName": "Margherita",
+      "ingredients": "Margherita pizza is made with basil, fresh mozzarella, and tomatoes",
+      "size": "200 grams, 35 cm",
+      "amount": 52,
+      "foodtype": 1
+    },
+    {
+      "name": "BBQ Chicken",
+      "imageName": "BBQ Chicken",
+      "ingredients": "The chicken slathered over the top of a pie gives it a tangy, sweet flavor that can’t be beaten",
+      "size": "200 grams, 35 cm",
+      "amount": 30,
+      "foodtype": 1
+    },
+    {
+      "name": "Hawaiian",
+      "imageName": "Hawaiian",
+      "ingredients": "add in some ham and it creates an unexpectedly solid sweet and salty combination for this type of pizza",
+      "size": "200 grams, 35 cm",
+      "amount": 25,
+      "foodtype": 1
+    },
+    {
+      "name": "Buffalo",
+      "imageName": "Buffalo",
+      "ingredients": "All its spicy, salty, buttery goodness is a natural pairing for pizza",
+      "size": "200 grams, 35 cm",
+      "amount": 36,
+      "foodtype": 1
+    },
+    {
+      "name": "Supreme",
+      "imageName": "Supreme",
+      "ingredients": "scattered on these pies, from sausage to vegetables to pepperoni. And it’s the combination of the flavors that really makes it sing.",
+      "size": "200 grams, 35 cm",
+      "amount": 28,
+      "foodtype": 1
+    },
+    {
+      "name": "The Works",
+      "imageName": "The Works",
+      "ingredients": "a wide variety of veggie toppings including onions, olives, and mushrooms, plus bacon and pepperoni",
+      "size": "200 grams, 35 cm",
+      "amount": 48,
+      "foodtype": 1
+    },
+    {
+      "name": "Makizushi",
+      "imageName": "Makizushi",
+      "ingredients": "Makizushi, also known as “norimaki,” refers to a type of sushi ",
+      "size": "100 grams, 11 cm",
+      "amount": 29,
+      "foodtype": 2
+    },
+    {
+      "name": "Gunkan Maki",
+      "imageName": "Gunkan Maki",
+      "ingredients": "Gunkan maki is another type of maki—“rolled” or “wrapped” ",
+      "size": "120 grams, 12 cm",
+      "amount": "23",
+      "foodtype": 2
+    },
+    {
+      "name": "Temaki",
+      "imageName": "Temaki",
+      "ingredients": "emaki is a novel type of sushi with a shape resembling",
+      "size": "110 grams, 13 cm",
+      "amount": 62,
+      "foodtype": 2
+    },
+    {
+      "name": "Narezushi",
+      "imageName": "Narezushi",
+      "ingredients": "Fermentation was a technique used the world over to preserve fish and other products before",
+      "size": "150 grams, 14 cm",
+      "amount": 52,
+      "foodtype": 2
+    },
+    {
+      "name": "Nigiri",
+      "imageName": "Nigiri",
+      "ingredients": "Nigiri is the original form of sushi that we know today. Also called edo-mae (meaning “in front of Edo”)",
+      "size": "108 grams, 13 cm",
+      "amount": 22,
+      "foodtype": 2
+    },
+    {
+      "name": "Oshizushi",
+      "imageName": "Oshizushi",
+      "ingredients": "Oshizushi (pressed sushi), also known as hakozushi (boxed sushi), is a strikingly shaped style of sushi originating in Osaka",
+      "size": "120 grams, 12 cm",
+      "amount": 62,
+      "foodtype": 2
+    },
+    {
+      "name": "Sasazushi",
+      "imageName": "Sasazushi",
+      "ingredients": "In Japanese, “sasa” is a bamboo leaf, and sasazushi is sushi consisting of rice and toppings wrapped in a bamboo leaf",
+      "size": "135 grams, 35 cm",
+      "amount": 45,
+      "foodtype": 2
+    },
+    {
+      "name": "Kakinoha-zushi",
+      "imageName": "Kakinoha-zushi",
+      "ingredients": "Another type of pressed, leaf-wrapped sushi is kakinoha-zushi, which comes from the Nara region of western Japan and dates to the Edo period. This version is wrapped in a persimmon (kaki) leaf",
+      "size": "125 grams, 11 cm",
+      "amount": 42,
+      "foodtype": 2
+    },
+    {
+      "name": "Temari",
+      "imageName": "Temari",
+      "ingredients": "Temari is a less known variety of sushi overseas, and is also not as common to find in Japan, although it’s a popular style of sushi to make at home given its simplicity in form",
+      "size": "165 grams, 13 cm",
+      "amount": 30,
+      "foodtype": 2
+    },
+    {
+      "name": "Chirashizushi",
+      "imageName": "Chirashizushi",
+      "ingredients": "Chirashizushi, translated as “scattered sushi,” is a bowl of rice topped with a variety of ingredients, with popular toppings including pieces of salmon, squid, cucumber, shredded omelet, and boiled prawns",
+      "size": "185 grams, 15 cm",
+      "amount": 20,
+      "foodtype": 2
+    },
+    {
+      "name": "Inari-zushi",
+      "imageName": "Inari-zushi",
+      "ingredients": "nari-zushi is quite different from the other varieties mentioned above, since in its most common form it doesn't contain any fish and is quite sweet in flavor",
+      "size": "195 grams, 22 cm",
+      "amount": 100,
+      "foodtype": 2
+    },
+    {
+      "name": "Mojito",
+      "imageName": "Mojito",
+      "ingredients": "Traditionally, a Mojito consists of five ingredients that include sugar or sugarcane juice, lime juice, soda water, mint and white rum",
+      "size": "200 grams, 35 cm",
+      "amount": 10,
+      "foodtype": 3
+    },
+    {
+      "name": "Long Island Iced Tea",
+      "imageName": "Long Island Iced Tea",
+      "ingredients": "Long Island Iced Tea (LIIT) is a stylish cocktail typically made with vodka, triple sec, tequila, light rum, gin and cola",
+      "size": "200 grams, 35 cm",
+      "amount": 12,
+      "foodtype": 3
+    },
+    {
+      "name": "Margarita",
+      "imageName": "Margarita",
+      "ingredients": "Margarita is a sour cocktail consisting of tequila, triple sec and lime or lemon juice. It is generally served with salt or sugar placed on the rim of the glass",
+      "size": "200 grams, 35 cm",
+      "amount": 11,
+      "foodtype": 3
+    },
+    {
+      "name": "Bloody Mary",
+      "imageName": "Bloody Mary",
+      "ingredients": "The spooky name Bloody Mary is synonymous to the bright red colour of the cocktail. It is made with vodka, tomato juice and a combination of various spices and flavours, which may include cayenne pepper, celery, olives and more",
+      "size": "200 grams, 35 cm",
+      "amount": 15,
+      "foodtype": 3
+    },
+    {
+      "name": "Cosmopolitan",
+      "imageName": "Cosmopolitan",
+      "ingredients": "Cosmopolitan is made with vodka, triple sec, cranberry juice and lime juice. It is usually served in a martini glass and is popularized as a feminine drink",
+      "size": "200 grams, 35 cm",
+      "amount": 14,
+      "foodtype": 3
+    },
+    {
+      "name": "Moscow Mule",
+      "imageName": "Moscow Mule",
+      "ingredients": "Moscow Mule is believed to have originated in the United States of America. It is made with vodka, spicy ginger beer and lime juice and garnished with a slice of wedge of lime",
+      "size": "200 grams, 35 cm",
+      "amount": 13,
+      "foodtype": 3
+    },
+    {
+      "name": "Screwdriver",
+      "imageName": "Screwdriver",
+      "ingredients": "No, it’s not the screwdriver tool that you are thinking of! This interesting drink is made with vodka and orange juice, that’s how basic it is",
+      "size": "200 grams, 35 cm",
+      "amount": 10,
+      "foodtype": 3
+    },
+    {
+      "name": "Martini",
+      "imageName": "Martini",
+      "ingredients": "A classy drink, martini is a cocktail made with gin and vermouth and garnished with an olive. You can add some aromatic bitters and serve it chilled in a martini glass",
+      "size": "200 grams, 35 cm",
+      "amount": 15,
+      "foodtype": 3
+    },
+    {
+      "name": "Sangria",
+      "imageName": "Sangria",
+      "ingredients": "Sangria is a punchy cocktail consisting of red or white wine, chopped fresh fruits and fruit juice",
+      "size": "200 grams, 35 cm",
+      "amount": 18,
+      "foodtype": 3
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FoodApplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QY6-rH-iZ0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="627"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSF-cc-gfq">
+                                        <rect key="frame" x="0.0" y="-80" width="414" height="627"/>
+                                        <viewLayoutGuide key="contentLayoutGuide" id="nTS-b3-E4X"/>
+                                        <viewLayoutGuide key="frameLayoutGuide" id="rhZ-AY-nhB"/>
+                                    </scrollView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wx7-3F-HCo">
+                                        <rect key="frame" x="20" y="40" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="cyN-OV-RMI"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Kazarov">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="20" name="Arial-BoldMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="18" name="Arial-BoldMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="delivery">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="18" name="Arial-BoldMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="kzF-0v-yLL">
+                                        <rect key="frame" x="145.5" y="494.5" width="123" height="28"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="cSF-cc-gfq" secondAttribute="trailing" id="D3g-5Q-ypx"/>
+                                    <constraint firstItem="wx7-3F-HCo" firstAttribute="leading" secondItem="QY6-rH-iZ0" secondAttribute="leading" constant="20" id="Io8-AM-uaC"/>
+                                    <constraint firstItem="wx7-3F-HCo" firstAttribute="top" secondItem="QY6-rH-iZ0" secondAttribute="top" constant="40" id="Ncx-Yd-d70"/>
+                                    <constraint firstItem="cSF-cc-gfq" firstAttribute="top" secondItem="QY6-rH-iZ0" secondAttribute="top" id="YcB-R1-t13"/>
+                                    <constraint firstItem="cSF-cc-gfq" firstAttribute="leading" secondItem="QY6-rH-iZ0" secondAttribute="leading" id="a0n-kn-e5h"/>
+                                    <constraint firstItem="kzF-0v-yLL" firstAttribute="centerX" secondItem="QY6-rH-iZ0" secondAttribute="centerX" id="cAc-qN-paj"/>
+                                    <constraint firstAttribute="bottom" secondItem="kzF-0v-yLL" secondAttribute="bottom" multiplier="1.2" id="niL-V1-s9d"/>
+                                    <constraint firstAttribute="bottom" secondItem="cSF-cc-gfq" secondAttribute="bottom" id="o1q-ER-Gss"/>
+                                    <constraint firstAttribute="trailing" secondItem="wx7-3F-HCo" secondAttribute="trailing" constant="20" id="qjL-3N-m1e"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.83311361070000001" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QY6-rH-iZ0" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.7" id="FB7-MD-uJJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QY6-rH-iZ0" secondAttribute="trailing" id="nE2-rA-Cxd"/>
+                            <constraint firstItem="QY6-rH-iZ0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uAf-yw-1Cb"/>
+                            <constraint firstItem="QY6-rH-iZ0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xrl-fF-SnW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="evZ-U7-JmL"/>
+                    <connections>
+                        <outlet property="mainScrollView" destination="cSF-cc-gfq" id="4WL-bw-5wo"/>
+                        <outlet property="pageControl" destination="kzF-0v-yLL" id="6HQ-di-ewT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1123.1884057971015" y="89.732142857142847"/>
+        </scene>
+        <!--Food Base View Controller-->
+        <scene sceneID="opl-ix-FhL">
+            <objects>
+                <viewController storyboardIdentifier="foodcontroller" id="uwA-8J-E6K" customClass="FoodBaseViewController" customModule="FoodApplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Qi-WH-Dig">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="82N-Eb-L4L"/>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2bC-DI-JY0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QzS-hH-TX9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1855" y="90"/>
+        </scene>
+    </scenes>
+</document>
